@@ -20,13 +20,13 @@
 ### References      : https://github.com/baskerville/diana/blob/87c5b1b57425585b4c0f543edcf7e9038cf793c5/diana#L427-L429
 
 # download path
-DIANA_DOWNLOAD_DIR=~/Downloads/Aria
+#DIANA_DOWNLOAD_DIR=~/Downloads/Aria
 # cli frontend to aria2 daemon
-DIANA_BIN=/usr/bin/diana
+#DIANA_BIN=/usr/bin/diana
 # diana's custom way to start aria2 daemon
-DAD_BIN=/usr/bin/dad
+#DAD_BIN=/usr/bin/dad
 # list all active,paused,completed,errors
-DIANAMUI_PROGRESS_BIN=~/.scripts/diana-progress
+#DIANAMUI_PROGRESS_BIN=~/.scripts/diana-progress
 
 main_program () {
 while true; do

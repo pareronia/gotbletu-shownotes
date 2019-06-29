@@ -18,7 +18,7 @@
 ### Depends On      : bash  diana (https://github.com/baskerville/diana)
 ### Video Demo      : https://www.youtube.com/watch?v=y59JwlYsrAE
 
-DIANA_BIN=/usr/bin/diana
+#DIANA_BIN=/usr/bin/diana
 
 # printf '%s\n' "====BANDWIDTH===="
 "$DIANA_BIN" stats
