@@ -112,10 +112,11 @@ while true; do
           read -rsp $'Press any key to return to main menu\n' -n1
           ;;
     D)    # change aria2 download location
-          printf '%s\n' ">>> Set Your Default Download Directory"
-          read -r -e -p ">>> " DIR
-          DIR=$(printf '%s' "$DIR" | sed 's/^~/$HOME/g')
-          sed -i 's:^DIANA_DOWNLOAD_DIR=.*:DIANA_DOWNLOAD_DIR='\""$DIR"\"':g' "$0"
+          printf '%s\n' "Set environment variable DIANA_DOWNLOAD_DIR"
+          # printf '%s\n' ">>> Set Your Default Download Directory"
+          # read -r -e -p ">>> " DIR
+          # DIR=$(printf '%s' "$DIR" | sed 's/^~/$HOME/g')
+          # sed -i 's:^DIANA_DOWNLOAD_DIR=.*:DIANA_DOWNLOAD_DIR='\""$DIR"\"':g' "$0"
           printf '\n'
           printf "%s\n" "Restart Daemon And Script To Apply Changes"
           printf '\n'
